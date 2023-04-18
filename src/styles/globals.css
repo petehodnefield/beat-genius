@@ -34,9 +34,35 @@ h1 {
   font-weight: 900;
 }
 
-.sub_header {
-  font-size: 1.25rem;
-  font-weight: 400;
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 96px;
+}
+.header__logo-text {
+  font-size: 0.875rem;
+  letter-spacing: 4px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+/* Nav styling */
+.nav {
+  display: flex;
+  gap: 2.5rem;
+}
+.nav__a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--dark-blue);
 }
 
 /* Button styling */
