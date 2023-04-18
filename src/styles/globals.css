@@ -41,6 +41,14 @@ a {
   text-decoration: none;
 }
 /* Header styling */
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.40800070028011204) 46%,
+    rgba(34, 104, 209, 0.6601015406162465) 100%
+  );
+}
 header {
   display: flex;
   align-items: center;
@@ -111,7 +119,7 @@ header {
   height: 3rem;
   width: 8.875rem;
   font-size: 0.875rem;
-  background-color: var(--primary);
+  background-color: var(--white);
   color: var(--dark-blue);
 }
 /* Hero styling */

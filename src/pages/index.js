@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Header from "@/components/Header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function Home() {
@@ -16,24 +16,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={pjs.className}>
-        <section className="hero">
-          <div className="hero__text-wrapper">
-            <h1 className="hero__h1">
-              Music production personalized to the artist
-            </h1>
-            <h2 className="hero__h2">
-              See how BeatGenius can help craft your own unique sound.
-            </h2>
-            <div className="hero__btn-wrapper">
-              <button className="btn btn-outline btn-large rounded">
-                Watch video
-              </button>
-              <button className="btn btn-primary btn-large rounded">
-                Try the demo
-              </button>
+        <div className="gradient">
+          <Header />
+          <section className="hero">
+            <div className="hero__text-wrapper">
+              <h1 className="hero__h1">
+                Music production personalized to the artist
+              </h1>
+              <h2 className="hero__h2">
+                See how BeatGenius can help craft your own unique sound.
+              </h2>
+              <div className="hero__btn-wrapper">
+                <button className="btn btn-outline btn-large rounded">
+                  Watch video
+                </button>
+                <button className="btn btn-primary btn-large rounded">
+                  Try the demo
+                </button>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
     </>
   );
