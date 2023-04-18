@@ -54,6 +54,22 @@ header {
   color: var(--dark-blue);
 }
 
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cta__signin-wrapper {
+  display: flex;
+  align-items: center;
+}
+.cta__text {
+  font-size: 0.875rem;
+  color: var(--dark-blue);
+  font-weight: 500;
+  cursor: pointer;
+}
+
 /* Nav styling */
 .nav {
   display: flex;
@@ -91,7 +107,13 @@ header {
   font-family: "__Plus_Jakarta_Sans_ab364c",
     "__Plus_Jakarta_Sans_Fallback_ab364c";
 }
-
+.btn--header {
+  height: 3rem;
+  width: 8.875rem;
+  font-size: 0.875rem;
+  background-color: var(--primary);
+  color: var(--dark-blue);
+}
 /* Hero styling */
 .hero {
   min-height: 800px;
