@@ -3,6 +3,7 @@ import React from "react";
 import djSet from "../../../public/assets/images/dj-set.jpg";
 import { Icon } from "@iconify/react";
 import CircleIcon from "../Icons/CircleIcon";
+import CircleIconWithFlag from "../Icons/CircleIconWithFlag";
 
 const Hero = () => {
   return (
@@ -30,7 +31,19 @@ const Hero = () => {
           src="https://images.unsplash.com/photo-1594623930572-300a3011d9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         />
       </div>
-      <CircleIcon iconPosition={"hello"} iconCode="ph:microphone-stage" />
+      <CircleIcon iconCode="ph:microphone-stage" />
+      <CircleIcon iconCode="ph:guitar" />
+      <CircleIcon iconCode="ph:piano-keys" />
+      <CircleIconWithFlag
+        iconCode="ph:music-notes"
+        flagStyle={"circle-icon-flag--outline"}
+        flagText="Make hits"
+      />
+      <CircleIconWithFlag
+        flagStyle={"circle-icon-flag--primary"}
+        flagText="Network"
+        iconCode="ph:share-network"
+      />
     </section>
   );
 };
