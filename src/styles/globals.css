@@ -275,3 +275,29 @@ header {
   border: 1px solid var(--secondary);
   color: var(--dark-blue);
 }
+
+.circle-icon__microphone {
+  position: absolute;
+  top: 40%;
+  left: 9rem;
+}
+.circle-icon__guitar {
+  position: absolute;
+  top: 50%;
+  left: 4.5rem;
+}
+.circle-icon__piano {
+  position: absolute;
+  top: 62%;
+  left: 3.5rem;
+}
+.circle-icon__make-hits {
+  position: absolute;
+  top: 40%;
+  right: 9rem;
+}
+.circle-icon__network {
+  position: absolute;
+  top: 50%;
+  right: 4.5rem;
+}
