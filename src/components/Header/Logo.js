@@ -1,12 +1,17 @@
 import React from "react";
 import Link from "next/link";
+import logo from "../../../public/assets/logo/logo.png";
+import Image from "next/image";
 const Logo = () => {
   return (
-    <span>
-      <Link className="header__logo-text" href={"/"}>
-        BEATGENIUS
-      </Link>
-    </span>
+    <Link className="logo" href={"/"}>
+      <Image
+        className="header__logo"
+        src={logo}
+        alt="An eight note made out of circles"
+      />
+      <span className="header__logo-text">BEATGENIUS</span>
+    </Link>
   );
 };
 

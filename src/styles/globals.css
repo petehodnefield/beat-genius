@@ -61,6 +61,19 @@ header {
   max-width: 70rem;
   width: 70rem;
 }
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+.header__logo:hover,
+.header__logo-text:hover {
+  color: var(--accent1);
+}
+.header__logo {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+}
 .header__logo-text {
   font-size: 0.875rem;
   letter-spacing: 4px;
