@@ -336,3 +336,44 @@ header {
   font-size: 0.75rem;
   font-weight: 600;
 }
+
+.listeners-graphic {
+  height: 90px;
+  border-radius: 1rem;
+  padding: 1.25rem 0.75rem;
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+  display: flex;
+  gap: 0.75rem;
+}
+
+.listeners-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.listeners__text {
+  font-size: 0.675rem;
+  font-weight: 600;
+}
+.listeners__text--green {
+  color: var(--green);
+}
+.listeners__text--blue {
+  color: var(--primary);
+}
+.listeners__slider {
+  height: 0.25rem;
+  margin: 0.75rem 0;
+  width: 5rem;
+  background-color: rgba(179, 200, 239, 0.5);
+}
+.listeners__slider-inside {
+  height: 0.25rem;
+  width: 55px;
+}
+.listeners__slider-inside--green {
+  background-color: var(--green);
+}
+.listeners__slider-inside--blue {
+  background-color: var(--primary);
+}

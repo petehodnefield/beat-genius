@@ -1,10 +1,10 @@
 import React from "react";
-import GrowthPill from "../Graphics/GrowthPill";
+import ListenersGraphic from "../Graphics/ListenersGraphic";
 
 const About = () => {
   return (
     <div className="">
-      <GrowthPill />
+      <ListenersGraphic />{" "}
     </div>
   );
 };
