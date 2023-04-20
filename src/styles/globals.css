@@ -4,6 +4,7 @@
   --accent1: #7a6a6a;
   --white: #fff;
   --dark: #2c2c2c;
+  --green: #72e870;
   --dark-blue: #0b121e;
   --btn-transition: 250ms ease-in;
 }
@@ -300,4 +301,38 @@ header {
   position: absolute;
   top: 50%;
   right: 4.5rem;
+}
+
+/* Graphics styling */
+.growth-pill {
+  box-sizing: border-box;
+  background-color: var(--white);
+  border-radius: 100vmax;
+  gap: 0.75rem;
+  height: 4.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.25rem 0 1rem;
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+}
+.growth-pill__text {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.growth-pill__chart {
+  box-sizing: border-box;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid var(--green);
+  border-right: 3px solid var(--green);
+  border-bottom: 3px solid var(--green);
+  border-radius: 50%;
+}
+.growth-pill__chart-text {
+  font-size: 0.75rem;
+  font-weight: 600;
 }
