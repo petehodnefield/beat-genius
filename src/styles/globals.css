@@ -218,3 +218,36 @@ header {
   width: 100%;
   min-height: 800px;
 }
+
+/* Icon styling */
+.circle-icon {
+  width: 4.75rem;
+  height: 4.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-icon__outer-shadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100vmax;
+  background-color: var(--white);
+}
+.circle-icon__inner-shadow {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 100vmax;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+}
+.circle-icon__icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--dark-blue);
+}
