@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import djSet from "../../../public/assets/images/dj-set.jpg";
+import { Icon } from "@iconify/react";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
           </h2>
           <div className="hero__btn-wrapper">
             <button className="btn btn-outline btn-large rounded">
+              <Icon className="btn-outline--icon" icon="ph:play-fill" />
               Watch video
             </button>
             <button className="btn btn-primary btn-large rounded">
