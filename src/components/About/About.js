@@ -1,11 +1,12 @@
 import React from "react";
 import ListenersGraphic from "../Graphics/ListenersGraphic";
+import ThisIsBeatGenius from "./ThisIsBeatGenius";
 
 const About = () => {
   return (
-    <div className="">
-      <ListenersGraphic />{" "}
-    </div>
+    <section className="about">
+      <ThisIsBeatGenius />
+    </section>
   );
 };
 

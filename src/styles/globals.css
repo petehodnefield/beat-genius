@@ -1,6 +1,6 @@
 :root {
   --primary: #2268d1;
-  --secondary: #9aa6b8;
+  --secondary: #e8eff8;
   --accent1: #7a6a6a;
   --white: #fff;
   --dark: #2c2c2c;
@@ -215,11 +215,67 @@ header {
 
 /* About styling */
 .about {
-  background-color: var(--primary);
   width: 100%;
   min-height: 800px;
 }
+.about-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7.5rem;
+}
+.about__h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.about__h3 {
+  color: var(--accent1);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+}
+.about__h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 660px;
+  color: var(--accent1);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.about__icons-wrapper {
+  display: flex;
+  gap: 5.5rem;
+}
+.about__icon-container {
+  display: flex;
+  align-items: center;
 
+  height: 4.5rem;
+  gap: 1rem;
+}
+.about__icon-wrapper {
+  background-color: var(--secondary);
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__icon {
+  color: var(--primary);
+  font-size: 2rem;
+}
+
+.about__icon--text {
+  font-size: 1rem;
+  font-weight: 700;
+}
 /* Icon styling */
 .circle-icon {
   width: 4.75rem;
