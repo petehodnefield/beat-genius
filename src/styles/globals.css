@@ -224,6 +224,7 @@ header {
   align-items: center;
   justify-content: center;
   padding-top: 7.5rem;
+  padding-bottom: 8.5rem;
 }
 .about__h2 {
   font-weight: 900;
@@ -275,6 +276,31 @@ header {
 .about__icon--text {
   font-size: 1rem;
   font-weight: 700;
+}
+
+.about-label-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about__label-wrapper {
+  display: flex;
+  gap: 6rem;
+}
+.about__label-h3 {
+  margin-bottom: 2.5rem;
+}
+.about__label-icon-wrapper {
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid var(--dark-blue);
+  border-radius: 2px;
+}
+.about__label-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 /* Icon styling */
 .circle-icon {
