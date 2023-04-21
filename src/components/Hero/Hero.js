@@ -4,6 +4,9 @@ import djSet from "../../../public/assets/images/dj-set.jpg";
 import { Icon } from "@iconify/react";
 import CircleIcon from "../Icons/CircleIcon";
 import CircleIconWithFlag from "../Icons/CircleIconWithFlag";
+import SquareIconWithFlag from "../Icons/SquareIconWithFlag";
+import ListenersGraphic from "../Graphics/ListenersGraphic";
+import GrowthPill from "../Graphics/GrowthPill";
 
 const Hero = () => {
   return (
@@ -45,12 +48,14 @@ const Hero = () => {
           flagText="Make hits"
           iconPosition={"circle-icon__make-hits"}
         />
-        <CircleIconWithFlag
+        <SquareIconWithFlag
           flagStyle={"circle-icon-flag--primary"}
           flagText="Network"
           iconCode="ph:share-network"
           iconPosition={"circle-icon__network"}
         />
+        <ListenersGraphic graphicPosition="listeners-graphic__hero" />
+        <GrowthPill graphicPosition="growth-pill__hero" />
       </div>
     </section>
   );

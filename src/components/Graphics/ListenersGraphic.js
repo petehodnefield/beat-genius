@@ -1,8 +1,8 @@
 import React from "react";
 
-const ListenersGraphic = () => {
+const ListenersGraphic = ({ graphicPosition }) => {
   return (
-    <div className="listeners-graphic">
+    <div className={`listeners-graphic ${graphicPosition}`}>
       <div className="listeners-column">
         <h3 className="listeners__text">New listeners</h3>
         <div className="listeners__slider">

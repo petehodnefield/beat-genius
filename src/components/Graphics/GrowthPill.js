@@ -1,8 +1,8 @@
 import React from "react";
 
-const GrowthPill = () => {
+const GrowthPill = ({ graphicPosition }) => {
   return (
-    <div className="growth-pill">
+    <div className={`growth-pill ${graphicPosition}`}>
       <div className="growth-pill__chart">
         <span className="growth-pill__chart-text">+10k</span>
       </div>
