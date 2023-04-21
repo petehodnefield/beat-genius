@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
+import ArtistDevelopment from "@/components/ArtistDevelopment/ArtistDevelopment";
+import Footer from "@/components/Footer/Footer";
 
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -22,7 +24,9 @@ export default function Home() {
       <main className={pjs.className}>
         <Hero />
         <About />
+        <ArtistDevelopment />
       </main>
+      <Footer />
     </div>
   );
 }

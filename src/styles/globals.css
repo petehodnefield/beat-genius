@@ -527,3 +527,117 @@ header {
   right: 8rem;
   bottom: 12rem;
 }
+/* Statistics graphic */
+.statistics {
+  width: 24rem;
+  border-radius: 1rem;
+  height: 18rem;
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+}
+
+.statistics__head {
+  height: 2.75rem;
+  background-color: var(--primary);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.25rem;
+}
+.statistics__head-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--white);
+}
+.statistics-row-wrapper {
+  border-bottom: 1px solid var(--secondary);
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.statistics-last-row-wrapper {
+  display: flex;
+  height: 6rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.statistics-data__artwork-wrapper {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  top: 1rem;
+  left: 0.25rem;
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+}
+.statistics-data__artwork {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+.statistics-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.statistics-data--lg {
+  width: 8.5rem;
+  border-right: 1px solid var(--secondary);
+}
+.statistics-data--center {
+  padding-right: 1.5rem;
+  padding-left: 0.75rem;
+}
+.statistics-data__header {
+  font-size: 0.675rem;
+  font-weight: 600;
+  color: var(--accent1);
+}
+.statistics-data__data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.statistics-data__icon {
+  font-size: 1.125rem;
+}
+.statistics-data__stat {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.statistics-data__percentage {
+  font-size: 0.5rem;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.statistics-data__percentage--green {
+  color: var(--green);
+}
+.statistics-data__percentage--red {
+  color: red;
+}
+/* Artist Development */
+.artist-development {
+  height: 800px;
+}
+
+/* Footer styling */
+.footer {
+  height: 600px;
+  max-height: 600px;
+  background-color: var(--secondary);
+  width: 100%;
+  padding-top: 3rem;
+  text-align: center;
+}
+.footer-text-wrapper {
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+}
+.footer__header {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+}
