@@ -72,12 +72,47 @@ const PricingCards = () => {
             <p className="pricing-card__feature-text">5 revisions</p>
           </div>
         </div>
-        <button className="btn btn-large btn-primary rounded pricing-card__btn-primary">
+        <button className="btn btn-large btn-primary rounded pricing-card__btn">
           Choose popular plan
           <Icon
             className="pricing-card__chevron"
             icon="material-symbols:chevron-right-rounded"
           />
+        </button>
+      </div>
+
+      {/* Single card */}
+      <div className="pricing-card pricing-card--sm">
+        <h3 className="pricing-card__header">Album</h3>
+        <h4 className="pricing-card__price">$20,000+</h4>
+        <p className="pricing-card__text">
+          For the established artist looking to make hits.{" "}
+        </p>
+        {/* Features wrapper */}
+        <div className="pricing-card-features-wrapper">
+          {/* Individual feature */}
+          <div className="pricing-card-feature-wrapper">
+            <div className="pricing-card__icon-bg">
+              <Icon className="pricing-card__icon" icon="ph:check" />
+            </div>
+            <p className="pricing-card__feature-text">Weekly check-ins</p>
+          </div>
+          <div className="pricing-card-feature-wrapper">
+            <div className="pricing-card__icon-bg">
+              <Icon className="pricing-card__icon" icon="ph:check" />
+            </div>
+            <p className="pricing-card__feature-text">8 custom beats</p>
+          </div>
+          <div className="pricing-card-feature-wrapper">
+            <div className="pricing-card__icon-bg">
+              <Icon className="pricing-card__icon" icon="ph:check" />
+            </div>
+            <p className="pricing-card__feature-text">Unlimited revisions</p>
+          </div>
+        </div>
+        <button className="btn btn-large pricing-card__btn pricing-card__btn--album rounded">
+          <Icon icon="ic:round-mail" className="pricing-card__mail" />
+          Request an album
         </button>
       </div>
     </div>
