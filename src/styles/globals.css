@@ -5,7 +5,9 @@
   --white: #fff;
   --dark: #2c2c2c;
   --green: #72e870;
+  --green-fade: #c3f0c2;
   --dark-blue: #0b121e;
+  --dark-blue-fade: #82868b;
   --btn-transition: 250ms ease-in;
 }
 
@@ -133,6 +135,10 @@ header {
 .btn-primary {
   font-weight: 600;
   background-color: var(--primary);
+  color: var(--white);
+}
+.btn-blue-faded {
+  background-color: #a0c4fa;
   color: var(--white);
 }
 .btn-outline {
@@ -702,6 +708,90 @@ header {
 .artist-dev-feature__text {
   font-weight: 700;
   font-size: 0.875rem;
+}
+
+/* Pricing style */
+.pricing-wrapper {
+  height: 800px;
+}
+.pricing-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.pricing__header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 3rem;
+}
+.pricing__subheader {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent1);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+.pricing__sub-subheader {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--accent1);
+}
+/* Pricing cards */
+.pricing-card {
+  box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
+  border-radius: 1rem;
+  width: 22rem;
+}
+.pricing-card--sm {
+  padding: 2rem;
+}
+.pricing-card__header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--dark-blue-fade);
+  margin-bottom: 0.5rem;
+}
+.pricing-card__price {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.pricing-card__text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--dark-blue-fade);
+  margin-bottom: 2rem;
+}
+.pricing-card-features-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.pricing-card-feature-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.pricing-card__icon-bg {
+  background-color: var(--green-fade);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-card__icon {
+  color: #3f923d;
+}
+.pricing-card__feature-text {
+  font-size: 0.75rem;
 }
 /* Footer styling */
 .footer {

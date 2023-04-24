@@ -7,6 +7,7 @@ import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
 import ArtistDevelopment from "@/components/ArtistDevelopment/ArtistDevelopment";
 import Footer from "@/components/Footer/Footer";
+import Pricing from "@/components/Pricing/Pricing";
 
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Hero />
         <About />
         <ArtistDevelopment />
+        <Pricing />
       </main>
       <Footer />
     </div>
