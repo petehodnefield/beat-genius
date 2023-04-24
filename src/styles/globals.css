@@ -741,13 +741,35 @@ header {
   color: var(--accent1);
 }
 /* Pricing cards */
+.pricing-cards-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 .pricing-card {
   box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
   border-radius: 1rem;
   width: 22rem;
+  padding: 1.5rem 2rem;
+  height: fit-content;
 }
-.pricing-card--sm {
-  padding: 2rem;
+.pricing-card--lg {
+  padding-bottom: 3.175rem;
+}
+
+.pricing-card-best-seller-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-card__best-seller {
+  background-color: var(--primary);
+  border-radius: 100vmax;
+  color: var(--white);
+  font-size: 0.675rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
 }
 .pricing-card__header {
   font-size: 1.25rem;
@@ -766,6 +788,9 @@ header {
   font-weight: 400;
   color: var(--dark-blue-fade);
   margin-bottom: 2rem;
+}
+.pricing-card--lg .pricing-card-features-wrapper {
+  margin-bottom: 3rem;
 }
 .pricing-card-features-wrapper {
   display: flex;
@@ -792,6 +817,15 @@ header {
 }
 .pricing-card__feature-text {
   font-size: 0.75rem;
+}
+.pricing-card__btn-primary {
+  padding: 0 1.5rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.pricing-card__chevron {
+  font-size: 1.25rem;
 }
 /* Footer styling */
 .footer {
