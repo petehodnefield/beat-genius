@@ -9,7 +9,9 @@ import club from "../../../public/assets/albumArtwork/club.jpg";
 const Statistics = () => {
   return (
     <div className="statistics">
+      {/* Headphone image */}
       <Image className="statistics__image" src={headphones} />
+
       {/* Blue bg header */}
       <div className="statistics__head">
         {/* <CircleIcon iconCode="ph:microphone-stage" /> */}

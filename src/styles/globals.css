@@ -545,6 +545,7 @@ header {
   right: -3rem;
   top: -4rem;
 }
+
 .statistics__head {
   height: 2.75rem;
   background-color: var(--primary);
@@ -576,8 +577,8 @@ header {
   height: 2rem;
   width: 2rem;
   position: relative;
-  top: 1rem;
-  left: 0.25rem;
+  top: 0.75rem;
+  left: 0.4rem;
   box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
 }
 .statistics-data__artwork {
@@ -591,12 +592,12 @@ header {
   align-items: flex-start;
 }
 .statistics-data--lg {
-  width: 8.5rem;
+  width: 9rem;
   border-right: 1px solid var(--secondary);
 }
 .statistics-data--center {
   padding-right: 1.5rem;
-  padding-left: 0.75rem;
+  padding-left: 1.25rem;
 }
 .statistics-data__header {
   font-size: 0.675rem;
