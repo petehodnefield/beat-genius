@@ -2,13 +2,14 @@ import React from "react";
 import CircleIcon from "../Icons/CircleIcon";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-
+import headphones from "../../../public/assets/images/headphones.png";
 import chances from "../../../public/assets/albumArtwork/chances.jpg";
 import club from "../../../public/assets/albumArtwork/club.jpg";
 
 const Statistics = () => {
   return (
     <div className="statistics">
+      <Image className="statistics__image" src={headphones} />
       {/* Blue bg header */}
       <div className="statistics__head">
         {/* <CircleIcon iconCode="ph:microphone-stage" /> */}

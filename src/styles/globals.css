@@ -538,7 +538,13 @@ header {
   height: 18rem;
   box-shadow: 0 8px 16px 0 rgba(21, 65, 132, 0.2);
 }
-
+.statistics__image {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  right: -3rem;
+  top: -4rem;
+}
 .statistics__head {
   height: 2.75rem;
   background-color: var(--primary);
