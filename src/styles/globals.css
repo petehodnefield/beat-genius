@@ -866,6 +866,11 @@ header {
   color: var(--accent1);
   max-width: 300px;
 }
+/* Testimonials card section */
+.testimonials-carousel {
+  display: flex;
+  gap: 2rem;
+}
 .testimonials-card {
   box-shadow: 0 16px 32px 0 rgba(21, 65, 132, 0.2);
   border-radius: 1rem;
