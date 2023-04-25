@@ -847,6 +847,20 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+.testimonials__gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.40800070028011204) 68%,
+    rgba(34, 104, 209, 0.6601015406162465) 100%
+  );
+  top: 0;
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
 }
 .testimonials-heading-wrapper {
   display: flex;
@@ -870,6 +884,7 @@ header {
 .testimonials-carousel {
   display: flex;
   gap: 2rem;
+  margin-top: 2rem;
 }
 .testimonials-card {
   box-shadow: 0 16px 32px 0 rgba(21, 65, 132, 0.2);
@@ -877,8 +892,13 @@ header {
   width: 16rem;
   border: 1px solid #e4edfb;
   padding: 1.5rem;
+  background-color: var(--white);
 }
 
+.testimonials-card--high {
+  position: relative;
+  bottom: 2rem;
+}
 .testimonials-card-image-wrapper {
   height: 3.125rem;
   width: 3.125rem;
