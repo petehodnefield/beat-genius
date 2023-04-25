@@ -1061,6 +1061,8 @@ header {
   padding-top: 3rem;
   text-align: center;
   color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
 }
 .footer-content-wrapper {
   width: 70rem;
@@ -1073,8 +1075,10 @@ header {
 }
 .footer__column {
   display: flex;
+  height: 100%;
   flex-direction: column;
   align-items: flex-start;
+  position: relative;
 }
 .footer__header {
   font-size: 1rem;
@@ -1085,6 +1089,12 @@ header {
   font-weight: 500;
   font-size: 0.875rem;
   margin-bottom: 1.5rem;
+}
+.footer__copyright {
+  font-weight: 500;
+  font-size: 0.675rem;
+  position: absolute;
+  bottom: 3rem;
 }
 .footer__subheader--smgap {
   margin-bottom: 1.25rem;

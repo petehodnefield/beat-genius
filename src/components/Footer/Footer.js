@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 const Footer = () => {
   const [confirmMessage, setConfirmMessage] = useState("");
+
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-content-wrapper">
@@ -14,6 +16,7 @@ const Footer = () => {
           <Link className="footer__link footer__link--bold" href={"#"}>
             Terms of service
           </Link>
+          <p className="footer__copyright">© {currentYear} BeatGenius LLC</p>
         </div>
         <div className="footer__column">
           <h4 className="footer__subheader">Navigation</h4>
