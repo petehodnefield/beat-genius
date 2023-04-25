@@ -9,6 +9,12 @@
   --dark-blue: #0b121e;
   --dark-blue-fade: #82868b;
   --btn-transition: 250ms ease-in;
+  --gradient-pt1: rgba(32, 72, 209, 0.3);
+  --gradient-pt2: linear-gradient(
+    180deg,
+    rgba(32, 72, 209, 0) 40%,
+    rgba(34, 104, 209, 0.4) 100%
+  );
 }
 
 * {
@@ -142,6 +148,9 @@ header {
   color: var(--white);
   font-weight: 600;
 }
+.btn-white {
+  background-color: var(--white);
+}
 .btn-outline {
   border: 1px solid var(--accent1);
   background-color: var(--white);
@@ -166,18 +175,14 @@ header {
   width: 8.875rem;
   font-size: 0.875rem;
   background-color: var(--white);
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--dark-blue-fade);
   color: var(--dark-blue);
 }
 /* Hero styling */
 .hero {
   width: 100%;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.40800070028011204) 68%,
-    rgba(34, 104, 209, 0.6601015406162465) 100%
-  );
+  background: var(--gradient-pt1);
+  background: var(--gradient-pt2);
   display: flex;
   justify-content: center;
 }
@@ -850,12 +855,8 @@ header {
   position: relative;
 }
 .testimonials__gradient {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.40800070028011204) 68%,
-    rgba(34, 104, 209, 0.6601015406162465) 100%
-  );
+  background: var(--gradient-pt1);
+  background: var(--gradient-pt2);
   top: 0;
   height: 500px;
   width: 100%;
@@ -1019,6 +1020,37 @@ header {
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--dark-blue);
+}
+
+/* CTA Section styling */
+.cta-wrapper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-pt1);
+  background: var(--gradient-pt2);
+}
+.cta__header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.cta__subheader {
+  font-size: 1.25rem;
+  color: var(--accent1);
+  font-weight: 400;
+  max-width: 560px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.cta-btn-wrapper {
+  display: flex;
+  gap: 2rem;
 }
 /* Footer styling */
 .footer {

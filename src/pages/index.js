@@ -10,6 +10,7 @@ import Footer from "@/components/Footer/Footer";
 import Pricing from "@/components/Pricing/Pricing";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import SuccessStories from "@/components/SuccessStories/SuccessStories";
+import CTASection from "@/components/CTASection/CTASection";
 
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function Home() {
         <Pricing />
         <Testimonials />
         <SuccessStories />
+        <CTASection />
         <Footer />
       </main>
     </div>
