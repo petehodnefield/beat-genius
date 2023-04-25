@@ -9,6 +9,7 @@ import ArtistDevelopment from "@/components/ArtistDevelopment/ArtistDevelopment"
 import Footer from "@/components/Footer/Footer";
 import Pricing from "@/components/Pricing/Pricing";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import SuccessStories from "@/components/SuccessStories/SuccessStories";
 
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function Home() {
         <ArtistDevelopment />
         <Pricing />
         <Testimonials />
+        <SuccessStories />
         <Footer />
       </main>
     </div>
