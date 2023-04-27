@@ -183,8 +183,12 @@ header {
 /* Hero styling */
 .hero {
   width: 100%;
-  background: var(--gradient-pt1);
-  background: var(--gradient-pt2);
+  background: rgba(32, 72, 209, 0.3);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 72, 209, 0) 70%,
+    rgba(34, 104, 209, 0.4) 100%
+  );
   display: flex;
   justify-content: center;
 }
@@ -198,11 +202,15 @@ header {
   align-items: center;
   position: relative;
 }
-.hero__img {
+.hero-img-wrapper {
   height: 22.5rem;
-  border-radius: 1.5rem;
-
   width: 46rem;
+  position: relative;
+}
+.hero__img {
+  height: 100%;
+  border-radius: 1.5rem;
+  width: 100%;
   object-fit: cover;
 }
 .hero__text-wrapper {
@@ -377,30 +385,39 @@ header {
 
 .circle-icon__microphone {
   position: absolute;
-  top: 40%;
-  left: 9rem;
+  top: -5rem;
+  left: -3rem;
 }
 .circle-icon__guitar {
   position: absolute;
-  top: 50%;
-  left: 4.5rem;
+  top: -0.5rem;
+  left: -7rem;
 }
 .circle-icon__piano {
   position: absolute;
-  top: 62%;
-  left: 3.5rem;
+  top: 5rem;
+  left: -7.75rem;
 }
 .circle-icon__make-hits {
   position: absolute;
-  top: 40%;
-  right: 9rem;
+  top: -5.5rem;
+  right: -3rem;
 }
 .circle-icon__network {
   position: absolute;
-  top: 50%;
-  right: 4.5rem;
+  top: 0rem;
+  right: -6.5rem;
 }
-
+.listeners-graphic__hero {
+  position: absolute;
+  bottom: 6rem;
+  left: -9rem;
+}
+.growth-pill__hero {
+  position: absolute;
+  right: -5rem;
+  bottom: 12rem;
+}
 /* Square icon */
 .square-icon {
   width: 4.75rem;
@@ -533,16 +550,7 @@ header {
 .listeners__slider-inside--blue {
   background-color: var(--primary);
 }
-.listeners-graphic__hero {
-  position: absolute;
-  bottom: 5rem;
-  left: 2rem;
-}
-.growth-pill__hero {
-  position: absolute;
-  right: 8rem;
-  bottom: 12rem;
-}
+
 /* Statistics graphic */
 .statistics {
   position: absolute;

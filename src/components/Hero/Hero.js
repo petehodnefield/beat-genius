@@ -29,33 +29,38 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img
-          className="hero__img"
-          src="https://images.unsplash.com/photo-1594623930572-300a3011d9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        />
-        <CircleIcon
-          iconCode="ph:microphone-stage"
-          iconPosition={"circle-icon__microphone"}
-        />
-        <CircleIcon iconCode="ph:guitar" iconPosition={"circle-icon__guitar"} />
-        <CircleIcon
-          iconCode="ph:piano-keys"
-          iconPosition={"circle-icon__piano"}
-        />
-        <CircleIconWithFlag
-          iconCode="ph:music-notes"
-          flagStyle={"circle-icon-flag--outline"}
-          flagText="Make hits"
-          iconPosition={"circle-icon__make-hits"}
-        />
-        <SquareIconWithFlag
-          flagStyle={"circle-icon-flag--primary"}
-          flagText="Network"
-          iconCode="ph:share-network"
-          iconPosition={"circle-icon__network"}
-        />
-        <ListenersGraphic graphicPosition="listeners-graphic__hero" />
-        <GrowthPill graphicPosition="growth-pill__hero" />
+        <div className="hero-img-wrapper">
+          <img
+            className="hero__img"
+            src="https://images.unsplash.com/photo-1594623930572-300a3011d9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+          <CircleIcon
+            iconCode="ph:microphone-stage"
+            iconPosition={"circle-icon__microphone"}
+          />
+          <CircleIcon
+            iconCode="ph:guitar"
+            iconPosition={"circle-icon__guitar"}
+          />
+          <CircleIcon
+            iconCode="ph:piano-keys"
+            iconPosition={"circle-icon__piano"}
+          />
+          <CircleIconWithFlag
+            iconCode="ph:music-notes"
+            flagStyle={"circle-icon-flag--outline"}
+            flagText="Make hits"
+            iconPosition={"circle-icon__make-hits"}
+          />
+          <SquareIconWithFlag
+            flagStyle={"circle-icon-flag--primary"}
+            flagText="Network"
+            iconCode="ph:share-network"
+            iconPosition={"circle-icon__network"}
+          />
+          <ListenersGraphic graphicPosition="listeners-graphic__hero" />
+          <GrowthPill graphicPosition="growth-pill__hero" />
+        </div>
       </div>
     </section>
   );
