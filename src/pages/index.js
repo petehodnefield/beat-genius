@@ -11,10 +11,14 @@ import Pricing from "@/components/Pricing/Pricing";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import SuccessStories from "@/components/SuccessStories/SuccessStories";
 import CTASection from "@/components/CTASection/CTASection";
+import HamburgerMenu from "@/components/Header/Hamburger/HamburgerMenu";
+import { useState } from "react";
 
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function Home() {
+  const [hamOpen, setHamOpen] = useState(false);
+
   return (
     <div className="wrapper">
       <Head>
@@ -23,7 +27,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
+      <HamburgerMenu hamOpen={hamOpen} setHamOpen={setHamOpen} />
+      <Header hamOpen={hamOpen} setHamOpen={setHamOpen} />
 
       <main className={pjs.className}>
         <Hero />
