@@ -1310,12 +1310,13 @@ header {
     cursor: pointer;
   }
   .hamburger-menu {
-    width: 50vw;
+    width: 60vw;
     background-color: var(--dark-blue);
     height: 100vh;
     z-index: 100;
     left: 0;
     position: fixed;
+    box-shadow: 8px 0 24px 0 rgba(21, 65, 132, 0.4);
   }
   .hamburger-menu--visible {
     display: block;

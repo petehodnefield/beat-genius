@@ -30,7 +30,7 @@ export default function Home() {
       <HamburgerMenu hamOpen={hamOpen} setHamOpen={setHamOpen} />
       <Header hamOpen={hamOpen} setHamOpen={setHamOpen} />
 
-      <main className={pjs.className}>
+      <main onClick={() => setHamOpen(false)} className={pjs.className}>
         <Hero />
         {/* <About />
         <ArtistDevelopment />

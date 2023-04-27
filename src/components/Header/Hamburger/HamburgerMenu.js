@@ -22,22 +22,38 @@ const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
 
       <ul className="hamburger-menu__ul">
         <li className="hamburger-menu__li">
-          <Link className="hamburger-menu__link" href={"#"}>
+          <Link
+            className="hamburger-menu__link"
+            href={"#"}
+            onClick={() => setHamOpen(false)}
+          >
             About us
           </Link>
         </li>
         <li className="hamburger-menu__li">
-          <Link className="hamburger-menu__link" href={"#"}>
+          <Link
+            className="hamburger-menu__link"
+            href={"#"}
+            onClick={() => setHamOpen(false)}
+          >
             Features
           </Link>
         </li>
         <li className="hamburger-menu__li">
-          <Link className="hamburger-menu__link" href={"#"}>
+          <Link
+            className="hamburger-menu__link"
+            href={"#"}
+            onClick={() => setHamOpen(false)}
+          >
             Testimonials
           </Link>
         </li>
         <li className="hamburger-menu__li">
-          <Link className="hamburger-menu__link" href={"#"}>
+          <Link
+            className="hamburger-menu__link"
+            href={"#"}
+            onClick={() => setHamOpen(false)}
+          >
             Pricing
           </Link>
         </li>
