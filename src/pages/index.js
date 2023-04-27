@@ -27,13 +27,13 @@ export default function Home() {
 
       <main className={pjs.className}>
         <Hero />
-        <About />
+        {/* <About />
         <ArtistDevelopment />
-        <Pricing />
-        <Testimonials />
-        <SuccessStories />
-        <CTASection />
-        <Footer />
+        <Pricing /> */}
+        {/* <Testimonials /> */}
+        {/* <SuccessStories /> */}
+        {/* <CTASection /> */}
+        {/* <Footer /> */}
       </main>
     </div>
   );

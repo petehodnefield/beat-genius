@@ -63,6 +63,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 /* Header styling */
 header {
@@ -117,6 +118,7 @@ header {
   display: flex;
   justify-content: center;
   flex: 2;
+  padding-left: 0;
   gap: 2.5rem;
 }
 .nav__a {
@@ -189,7 +191,7 @@ header {
 .hero__wrapper {
   min-height: 600px;
 
-  width: 70rem;
+  width: 100%;
   max-width: 70rem;
   display: flex;
   flex-direction: column;
@@ -848,6 +850,7 @@ header {
 /* Testimonials styling */
 .testimonials {
   height: 800px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -883,9 +886,13 @@ header {
 }
 /* Testimonials card section */
 .testimonials-carousel {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 16rem);
+  overflow-x: hidden;
+  overflow-y: scroll;
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
 }
 .testimonials-card {
   box-shadow: 0 16px 32px 0 rgba(21, 65, 132, 0.2);
@@ -941,6 +948,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 4.75rem;
+  width: 100%;
 }
 .success-text-wrapper {
   display: flex;
@@ -1206,4 +1214,25 @@ header {
 }
 .footer__confirm {
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    max-width: 65rem;
+    padding: 0 2rem;
+  }
+}
+
+/* 1080 media queries */
+@media screen and (max-width: 1080px) {
+  header {
+    padding: 0;
+    max-width: 50rem;
+  }
+  .nav {
+    justify-content: flex-end;
+  }
+  .cta {
+    display: none;
+  }
 }
