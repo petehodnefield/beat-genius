@@ -1235,12 +1235,56 @@ header {
 @media screen and (max-width: 1080px) {
   header {
     padding: 0;
-    max-width: 50rem;
+    width: 100%;
+    max-width: 46rem;
   }
   .nav {
     justify-content: flex-end;
   }
   .cta {
     display: none;
+  }
+  /* Hero  */
+  .hero__wrapper {
+    flex-direction: row;
+    overflow: hidden;
+    padding-left: 4rem;
+    gap: 4rem;
+  }
+  .hero__h1 {
+    text-align: left;
+  }
+  .hero__text-wrapper {
+    align-items: start;
+    padding: 0;
+  }
+  .hero-img-wrapper {
+    width: 40rem;
+  }
+  .hero__img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .circle-icon__make-hits {
+    top: -4rem;
+    left: -5rem;
+    right: unset;
+  }
+  .circle-icon__network,
+  .circle-icon__microphone,
+  .circle-icon__piano,
+  .circle-icon__guitar {
+    display: none;
+  }
+  .listeners-graphic__hero {
+    top: -2rem;
+    left: unset;
+    right: 0;
+  }
+  .growth-pill__hero {
+    left: -3rem;
+    right: unset;
+    top: unset;
+    bottom: 0;
   }
 }
