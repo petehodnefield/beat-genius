@@ -1411,4 +1411,12 @@ header {
   .btn-large {
     width: 100%;
   }
+  /* Hero icons */
+  .circle-icon__make-hits {
+    display: none;
+  }
+  .growth-pill__hero {
+    left: -1rem;
+    bottom: -1rem;
+  }
 }
