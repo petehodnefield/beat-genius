@@ -33,7 +33,7 @@ export default function Home() {
       <main onClick={() => setHamOpen(false)} className={pjs.className}>
         <Hero />
         <About />
-        {/* <ArtistDevelopment /> */}
+        <ArtistDevelopment />
         {/* <Pricing /> */}
         {/* <Testimonials /> */}
         {/* <SuccessStories /> */}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import Statistics from "../Graphics/Statistics";
 
 const ArtistDevelopmentText = () => {
   return (
@@ -13,6 +14,8 @@ const ArtistDevelopmentText = () => {
       <p className="artist-dev__text artist-dev__text--spacing-lg">
         Consult with our producers to learn about you and your musical goals
       </p>
+
+      <Statistics customClass={"statistics--screen-sm"} />
       {/* Icon features */}
       <div className="artist-dev-icons-wrapper">
         {/* Individual wrapper */}

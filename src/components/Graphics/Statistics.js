@@ -6,11 +6,11 @@ import headphones from "../../../public/assets/images/headphones.png";
 import chances from "../../../public/assets/albumArtwork/chances.jpg";
 import club from "../../../public/assets/albumArtwork/club.jpg";
 
-const Statistics = () => {
+const Statistics = ({ customClass }) => {
   return (
-    <div className="statistics">
+    <div className={`statistics ${customClass}`}>
       {/* Headphone image */}
-      <Image className="statistics__image" src={headphones} />
+      {/* <Image className="statistics__image" src={headphones} /> */}
 
       {/* Blue bg header */}
       <div className="statistics__head">
