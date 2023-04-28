@@ -10,7 +10,7 @@ const TestimonialsCarousel = () => {
   return (
     <div className="testimonials-carousel">
       {/* Lil Uzi card */}
-      <div className="testimonials-card testimonials-card--high">
+      <div className="testimonials-card testimonials-card--low">
         <div className="testimonials-card-image-wrapper">
           <Image
             className="testimonials-card__image"
@@ -60,7 +60,7 @@ const TestimonialsCarousel = () => {
       </div>
 
       {/* Lilbaby card */}
-      <div className="testimonials-card testimonials-card--high">
+      <div className="testimonials-card testimonials-card--low">
         <div className="testimonials-card-image-wrapper">
           <Image
             className="testimonials-card__image"
@@ -112,7 +112,7 @@ const TestimonialsCarousel = () => {
       </div>
 
       {/* 21 savage card */}
-      <div className="testimonials-card testimonials-card--high">
+      <div className="testimonials-card testimonials-card--low">
         <div className="testimonials-card-image-wrapper">
           <Image
             className="testimonials-card__image"
