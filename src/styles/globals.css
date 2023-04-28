@@ -1246,9 +1246,8 @@ header {
 /* 1080 media queries */
 @media screen and (max-width: 1080px) {
   header {
-    padding: 0;
+    padding: 0 4rem;
     width: 100%;
-    max-width: 46rem;
   }
   .nav {
     justify-content: flex-end;
