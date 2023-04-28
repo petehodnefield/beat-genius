@@ -154,6 +154,7 @@ header {
   background-color: #a0c4fa;
   color: var(--white);
   font-weight: 600;
+  padding: 0 1.5rem;
 }
 .btn-white {
   background-color: var(--white);
@@ -1514,6 +1515,9 @@ header {
   .pricing-card {
     width: 22rem;
   }
+  .pricing-card .btn-large {
+    width: fit-content;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1562,5 +1566,13 @@ header {
   }
   .statistics--screen-sm {
     max-width: 25rem;
+  }
+
+  /* Pricing */
+  .pricing-text-wrapper {
+    padding: 0 1.5rem;
+  }
+  .pricing__sub-subheader {
+    text-align: center;
   }
 }
