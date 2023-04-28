@@ -907,12 +907,12 @@ header {
   display: grid;
   grid-template-columns: repeat(6, 16rem);
   position: relative;
-  padding-left: 2rem;
   gap: 2rem;
   margin-top: 2rem;
   width: 100vw;
-  overflow-x: scroll;
-  overflow-y: visible;
+  overflow: scroll;
+  padding-bottom: 2rem;
+  justify-content: center;
 }
 .testimonials-card {
   box-shadow: 0 16px 32px 0 rgba(21, 65, 132, 0.2);
@@ -922,6 +922,7 @@ header {
   padding: 1.5rem;
   background-color: var(--white);
   height: fit-content;
+  min-height: 314px;
 }
 
 .testimonials-card--low {
@@ -1234,6 +1235,14 @@ header {
 }
 .footer__confirm {
   margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1800px) {
+  .testimonials-carousel {
+    overflow-x: scroll;
+    justify-content: start;
+    padding-left: 4rem;
+  }
 }
 
 @media screen and (max-width: 1280px) {
