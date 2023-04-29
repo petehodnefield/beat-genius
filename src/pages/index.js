@@ -38,8 +38,8 @@ export default function Home() {
         <Testimonials />
         {/* <SuccessStories /> */}
         {/* <CTASection /> */}
-        {/* <Footer /> */}
       </main>
+      <Footer />
     </div>
   );
 }

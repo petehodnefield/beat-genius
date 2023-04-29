@@ -1,12 +1,16 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
+import { Plus_Jakarta_Sans } from "next/font/google";
+
+const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
+
 const Footer = () => {
   const [confirmMessage, setConfirmMessage] = useState("");
 
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="footer">
+    <footer className={`footer ${pjs.className}`}>
       <div className="footer-content-wrapper">
         <div className="footer__column">
           <h3 className="footer__header">BEATGENIUS</h3>
@@ -33,7 +37,7 @@ const Footer = () => {
             Pricing{" "}
           </Link>
         </div>
-        <div className="footer__column">
+        <div className="footer__column footer__column--address">
           <h4 className="footer__subheader">Address</h4>
           <div className="footer-icon-text-wrapper">
             <Icon
@@ -76,7 +80,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="footer__column">
+        <div className="footer__column footer__column--contact">
           <h4 className="footer__subheader">Join our newsletter</h4>
           <label className="footer__text footer__label">Email</label>
           <div className="footer__input-wrapper">
