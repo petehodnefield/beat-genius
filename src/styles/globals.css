@@ -1562,12 +1562,21 @@ header {
     width: fit-content;
   }
 
+  /* CTA */
+  .cta-wrapper {
+    padding: 0 1.5rem;
+  }
+  .cta-btn-wrapper {
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+  }
   /* Footer */
   .footer-content-wrapper {
     grid-template-columns: repeat(2, 50vw);
   }
   .footer__column {
-    padding: 0 2rem;
+    padding: 0 0 0 4rem;
   }
 }
 
@@ -1626,7 +1635,10 @@ header {
   .pricing__sub-subheader {
     text-align: center;
   }
-
+  /* CTA */
+  .cta-btn-wrapper {
+    width: 100%;
+  }
   /* Footer */
   /* Footer */
   .footer-content-wrapper {

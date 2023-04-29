@@ -37,7 +37,7 @@ export default function Home() {
         <Pricing />
         <Testimonials />
         {/* <SuccessStories /> */}
-        {/* <CTASection /> */}
+        <CTASection />
       </main>
       <Footer />
     </div>
