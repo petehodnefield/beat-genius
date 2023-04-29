@@ -60,6 +60,9 @@ const Hero = () => {
           />
           <ListenersGraphic graphicPosition="listeners-graphic__hero" />
           <GrowthPill graphicPosition="growth-pill__hero" />
+          {/* Blue circles behind image */}
+          <div className="hero__bg-shape hero__bg-shape--left"></div>
+          <div className="hero__bg-shape hero__bg-shape--right"></div>
         </div>
       </div>
     </section>

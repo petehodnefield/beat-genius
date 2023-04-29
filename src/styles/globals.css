@@ -219,6 +219,25 @@ header {
   width: 100%;
   object-fit: cover;
 }
+.hero__bg-shape {
+  position: absolute;
+
+  z-index: -1;
+  height: 7.5rem;
+  width: 15rem;
+  filter: blur(100px);
+  border-radius: 150px 150px 0 0;
+  background-color: var(--primary);
+  overflow: hidden;
+}
+.hero__bg-shape--left {
+  bottom: 0;
+  left: -6rem;
+}
+.hero__bg-shape--right {
+  bottom: 0;
+  right: -6rem;
+}
 .hero__text-wrapper {
   display: flex;
   flex-direction: column;
