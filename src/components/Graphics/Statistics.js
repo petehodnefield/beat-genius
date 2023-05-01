@@ -100,7 +100,11 @@ const Statistics = ({ customClass }) => {
           <div className="statistics-data__data">
             <h4 className="statistics-data__stat">Chances</h4>
             <div className="statistics-data__artwork-wrapper">
-              <Image className="statistics-data__artwork" src={chances} />
+              <Image
+                className="statistics-data__artwork"
+                src={chances}
+                alt="Cover artwork for the song 'Chances' by pop artist iykyk"
+              />
             </div>
           </div>
         </div>
@@ -109,7 +113,11 @@ const Statistics = ({ customClass }) => {
           <div className="statistics-data__data">
             <h4 className="statistics-data__stat">Club Ain&apos;t It</h4>
             <div className="statistics-data__artwork-wrapper">
-              <Image className="statistics-data__artwork" src={club} />
+              <Image
+                className="statistics-data__artwork"
+                src={club}
+                alt="Cover artwork for the song 'Club Ain't it' by pop artist iykyk"
+              />
             </div>
           </div>
         </div>

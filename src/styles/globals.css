@@ -297,11 +297,14 @@ header {
   padding-bottom: 8.5rem;
 }
 .about__h2 {
+  order: 2;
   font-weight: 900;
   font-size: 2.5rem;
   margin-bottom: 3rem;
 }
+
 .about__h3 {
+  order: 1;
   color: var(--accent1);
   font-weight: 700;
   font-size: 0.75rem;
@@ -310,6 +313,7 @@ header {
   margin-bottom: 1.5rem;
 }
 .about__h4 {
+  order: 3;
   font-size: 1.25rem;
   font-weight: 400;
   max-width: 660px;
@@ -318,6 +322,7 @@ header {
   margin-bottom: 3rem;
 }
 .about__icons-wrapper {
+  order: 4;
   display: flex;
   gap: 5.5rem;
 }
@@ -795,10 +800,12 @@ header {
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--dark);
+  order: 2;
   margin-bottom: 2rem;
 }
 .pricing__subheader {
   font-size: 0.75rem;
+  order: 1;
   font-weight: 700;
   color: var(--accent1);
   text-transform: uppercase;
@@ -807,6 +814,7 @@ header {
 }
 .pricing__sub-subheader {
   font-size: 1.25rem;
+  order: 3;
   font-weight: 400;
   color: var(--accent1);
 }

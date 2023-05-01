@@ -79,9 +79,11 @@ const Footer = () => {
         </div>
         <div className="footer__column footer__column--contact">
           <h4 className="footer__subheader">Join our newsletter</h4>
-          <label className="footer__text footer__label">Email</label>
+          <label className="footer__text footer__label" htmlFor="emailInput">
+            Email
+          </label>
           <div className="footer__input-wrapper">
-            <input className="footer__input" type="email" />
+            <input className="footer__input" type="email" id="emailInput" />
             <div
               onClick={() =>
                 setConfirmMessage("Thank you for joining our newsletter!")
