@@ -30,9 +30,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img-wrapper">
-          <img
+          <Image
             className="hero__img"
-            src="https://images.unsplash.com/photo-1594623930572-300a3011d9ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            src={djSet}
+            alt="A DJ set with lots of cables plugged into it."
           />
           <CircleIcon
             iconCode="ph:microphone-stage"

@@ -19,7 +19,11 @@ const SuccessStories = () => {
       <div className="success-image-blog-wrapper">
         {/* Image */}
         <div className="success-image-wrapper">
-          <Image className="success__image" src={rapper} />
+          <Image
+            className="success__image"
+            src={rapper}
+            alt="A rapper from a low view performing into a microphone at a show."
+          />
         </div>
 
         {/* Blog */}

@@ -14,19 +14,39 @@ const RecordLabels = () => {
       </h3>
       <div className="about__label-wrapper">
         <div className="about__label-icon-wrapper">
-          <Image className="about__label-icon" src={sony} />
+          <Image
+            className="about__label-icon"
+            src={sony}
+            alt="Logo for Sony Entertainment"
+          />
         </div>
         <div className="about__label-icon-wrapper">
-          <Image className="about__label-icon" src={defjam} />
+          <Image
+            className="about__label-icon"
+            src={defjam}
+            alt="Logo for Def Jam Recordings"
+          />
         </div>
         <div className="about__label-icon-wrapper">
-          <Image className="about__label-icon" src={republic} />
+          <Image
+            className="about__label-icon"
+            src={republic}
+            alt="Logo for Republic Records"
+          />
         </div>
         <div className="about__label-icon-wrapper">
-          <Image className="about__label-icon" src={columbia} />
+          <Image
+            className="about__label-icon"
+            src={columbia}
+            alt="Logo for Columbia Records"
+          />
         </div>
         <div className="about__label-icon-wrapper">
-          <Image className="about__label-icon" src={universal} />
+          <Image
+            className="about__label-icon"
+            src={universal}
+            alt="Logo for Universal Records"
+          />
         </div>
       </div>
     </div>

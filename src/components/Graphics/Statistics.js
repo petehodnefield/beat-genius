@@ -21,7 +21,7 @@ const Statistics = ({ customClass }) => {
       <div className="statistics-row-wrapper">
         {/* Today's streams container */}
         <div className="statistics-data statistics-data--lg">
-          <h3 className="statistics-data__header">Today's streams</h3>
+          <h3 className="statistics-data__header">Today&apos;s streams</h3>
           <div className="statistics-data__data">
             <Icon className="statistics-data__icon" icon="ph:headphones" />
             <h4 className="statistics-data__stat">30,200</h4>
@@ -107,7 +107,7 @@ const Statistics = ({ customClass }) => {
         <div className="statistics-data statistics-data--center">
           <h3 className="statistics-data__header">Least popular song</h3>
           <div className="statistics-data__data">
-            <h4 className="statistics-data__stat">Club Ain't It</h4>
+            <h4 className="statistics-data__stat">Club Ain&apos;t It</h4>
             <div className="statistics-data__artwork-wrapper">
               <Image className="statistics-data__artwork" src={club} />
             </div>
