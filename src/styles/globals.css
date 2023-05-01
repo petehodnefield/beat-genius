@@ -8,7 +8,7 @@
   --green-fade: #c3f0c2;
   --dark-blue: #0b121e;
   --dark-blue-fade: #82868b;
-  --btn-transition: 250ms ease-in;
+  --btn-transition: 200ms ease-in-out;
   --gradient-pt1: rgba(32, 72, 209, 0.3);
   --gradient-pt2: linear-gradient(
     180deg,
@@ -111,6 +111,11 @@ header {
   display: flex;
   align-items: center;
 }
+.cta__signin-wrapper:hover {
+  opacity: 0.7;
+  transition: var(--btn-transition);
+  color: var(--dark);
+}
 .cta__text {
   font-size: 0.875rem;
   color: var(--dark-blue);
@@ -131,7 +136,10 @@ header {
   font-weight: 500;
   color: var(--dark-blue);
 }
-
+.nav__a:hover {
+  opacity: 0.7;
+  transition: var(--btn-transition);
+}
 /* Button styling */
 .btn {
   border: none;
@@ -172,12 +180,19 @@ header {
   justify-content: center;
 }
 .btn-outline:hover,
-.btn--header:hover {
-  opacity: 0.8;
+.btn--header:hover,
+.btn-white:hover,
+.pricing-card__btn:hover {
+  opacity: 0.6;
   transition: var(--btn-transition);
 }
+
 .btn-outline--icon {
   margin-right: 6px;
+}
+.btn-primary:hover {
+  background-color: #4e8dea;
+  transition: var(--btn-transition);
 }
 .btn--header {
   height: 3rem;
@@ -1071,7 +1086,10 @@ header {
   font-weight: 600;
   color: var(--dark-blue);
 }
-
+.success__link:hover {
+  opacity: 0.7;
+  transition: var(--btn-transition);
+}
 /* CTA Section styling */
 .cta-wrapper {
   width: 100%;
