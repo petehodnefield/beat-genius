@@ -1,16 +1,13 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
-import { Plus_Jakarta_Sans } from "next/font/google";
-
-const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const Footer = () => {
   const [confirmMessage, setConfirmMessage] = useState("");
 
   const currentYear = new Date().getFullYear();
   return (
-    <footer className={`footer ${pjs.className}`}>
+    <footer className={`footer `}>
       <div className="footer-content-wrapper">
         <div className="footer__column">
           <h3 className="footer__header">BEATGENIUS</h3>

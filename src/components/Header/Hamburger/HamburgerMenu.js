@@ -1,14 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import { Icon } from "@iconify/react";
-
-const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
   return (
     <div
-      className={`hamburger-menu ${pjs.className} ${
+      className={`hamburger-menu ${
         hamOpen ? "hamburger-menu--visible" : "hamburger-menu--hidden"
       }`}
     >
