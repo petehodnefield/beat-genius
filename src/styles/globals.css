@@ -16,7 +16,10 @@
     rgba(34, 104, 209, 0.4) 100%
   );
 }
-
+*,
+html {
+  scroll-behavior: smooth !important;
+}
 * {
   box-sizing: border-box;
 }
@@ -84,9 +87,11 @@ header {
   align-items: flex-end;
   flex: 1;
 }
-.header__logo:hover,
+
+.logo:hover .header__logo:hover,
 .header__logo-text:hover {
   color: var(--accent1);
+  transition: var(--btn-transition);
 }
 .header__logo {
   height: 1rem;
@@ -166,7 +171,7 @@ header {
 }
 .btn-white {
   background-color: var(--white);
-  font-weight: 600;
+  font-weight: 500;
 }
 .btn-outline {
   border: 1px solid var(--accent1);

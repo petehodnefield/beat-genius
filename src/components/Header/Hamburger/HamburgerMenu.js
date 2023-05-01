@@ -24,7 +24,7 @@ const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
         <li className="hamburger-menu__li">
           <Link
             className="hamburger-menu__link"
-            href={"#"}
+            href={"#about"}
             onClick={() => setHamOpen(false)}
           >
             About us
@@ -33,7 +33,7 @@ const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
         <li className="hamburger-menu__li">
           <Link
             className="hamburger-menu__link"
-            href={"#"}
+            href={"#artist-development"}
             onClick={() => setHamOpen(false)}
           >
             Features
@@ -42,7 +42,7 @@ const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
         <li className="hamburger-menu__li">
           <Link
             className="hamburger-menu__link"
-            href={"#"}
+            href={"#testimonials"}
             onClick={() => setHamOpen(false)}
           >
             Testimonials
@@ -51,7 +51,7 @@ const HamburgerMenu = ({ hamOpen, setHamOpen }) => {
         <li className="hamburger-menu__li">
           <Link
             className="hamburger-menu__link"
-            href={"#"}
+            href={"#pricing"}
             onClick={() => setHamOpen(false)}
           >
             Pricing

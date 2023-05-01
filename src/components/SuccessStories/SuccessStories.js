@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 const SuccessStories = () => {
   return (
-    <section className="success">
+    <section className="success" id="success-stories">
       <div className="success-text-wrapper">
         <h3 className="success__subheader">We love to see you grow</h3>
         <h2 className="success__header">Success Stories</h2>

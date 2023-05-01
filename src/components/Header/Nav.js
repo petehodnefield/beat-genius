@@ -5,12 +5,12 @@ const Nav = () => {
   return (
     <ul className="nav">
       <li className="nav__li">
-        <Link className="nav__a" href="/about">
+        <Link className="nav__a" href="#about">
           About us
         </Link>
       </li>
       <li className="nav__li">
-        <Link className="nav__a" href="#features">
+        <Link className="nav__a" href="#artist-development">
           Features
         </Link>
       </li>

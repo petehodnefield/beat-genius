@@ -3,7 +3,7 @@ import TestimonialsCarousel from "./TestimonialsCarousel";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials">
       {/* Gradient background */}
       <div className="testimonials__gradient"></div>
       <div className="testimonials-heading-wrapper">

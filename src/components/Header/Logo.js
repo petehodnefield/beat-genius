@@ -4,7 +4,7 @@ import logo from "../../../public/assets/logo/logo.png";
 import Image from "next/image";
 const Logo = () => {
   return (
-    <Link className="logo" href={"/"}>
+    <Link className="logo" href={"#"}>
       <Image
         className="header__logo"
         src={logo}
