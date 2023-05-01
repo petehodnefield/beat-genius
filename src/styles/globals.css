@@ -158,6 +158,7 @@ header {
 }
 .btn-white {
   background-color: var(--white);
+  font-weight: 600;
 }
 .btn-outline {
   border: 1px solid var(--accent1);
@@ -1717,5 +1718,12 @@ header {
   .footer__column--address {
     grid-column-start: unset;
     grid-row-start: 4;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Statistics */
+  .statistics--screen-sm {
+    transform: scale(80%);
   }
 }
