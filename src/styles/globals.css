@@ -178,8 +178,7 @@ header {
   background-color: var(--white);
   border-radius: 0.5rem;
   font-weight: 500;
-  font-family: "__Plus_Jakarta_Sans_ab364c",
-    "__Plus_Jakarta_Sans_Fallback_ab364c";
+
   display: flex;
   align-items: center;
   justify-content: center;
