@@ -9,7 +9,8 @@ const Testimonials = () => {
       <div className="testimonials-heading-wrapper">
         <h2 className="testimonials__header">What people say</h2>
         <h3 className="testimonials__subheader">
-          Our artists are our top priority. Let's hear what they have to say.
+          Our artists are our top priority. Let&apos;s hear what they have to
+          say.
         </h3>
       </div>
       <TestimonialsCarousel />
