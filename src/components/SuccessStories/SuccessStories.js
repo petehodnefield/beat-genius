@@ -7,8 +7,9 @@ const SuccessStories = () => {
   return (
     <section className="success" id="success-stories">
       <div className="success-text-wrapper">
-        <h3 className="success__subheader">We love to see you grow</h3>
         <h2 className="success__header">Success Stories</h2>
+
+        <h3 className="success__subheader">We love to see you grow</h3>
         <p className="success__text">
           <span className="success__text--bold">BeatGenius</span> prevents
           artists from becoming another type-beat, generic artist. See how are

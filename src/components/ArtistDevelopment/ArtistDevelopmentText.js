@@ -5,8 +5,9 @@ import Statistics from "../Graphics/Statistics";
 const ArtistDevelopmentText = () => {
   return (
     <div className="artist-dev-text-wrapper">
-      <h3 className="artist-dev__subheader">Artist Development</h3>
       <h2 className="artist-dev__header">Build your unique sound</h2>
+
+      <h3 className="artist-dev__subheader">Artist Development</h3>
       <p className="artist-dev__text artist-dev__text--spacing-sm">
         Our veteran team of producers know how to help artists craft their own
         style.
