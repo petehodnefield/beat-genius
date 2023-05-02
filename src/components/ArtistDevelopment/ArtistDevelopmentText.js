@@ -16,7 +16,6 @@ const ArtistDevelopmentText = () => {
         Consult with our producers to learn about you and your musical goals
       </p>
 
-      <Statistics customClass={"statistics--screen-sm"} />
       {/* Icon features */}
       <div className="artist-dev-icons-wrapper">
         {/* Individual wrapper */}
@@ -42,6 +41,7 @@ const ArtistDevelopmentText = () => {
           <h4 className="artist-dev-feature__text">Professional networking</h4>
         </div>
       </div>
+      <Statistics customClass={"statistics--screen-sm"} />
     </div>
   );
 };
